@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Audio Visualization with ThreeJS and WebAudio API</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Kelly+Slab|Oleo+Script+Swash+Caps:400,700|Amaranth:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div id="page">
+		<h1>Building a synthesizer with the WebAudioAPI</h1>
+		<div id="content">
+			<canvas id="synth-pad"></canvas>
+			<div id="info">
+			  <p>Click and drag the mouse over the synthesizer pad to generate a sound.</p>
+			  <p>Frequency increases left to right, Volume increase bottom to top</p><br>
+			  <p><strong>Frequency:</strong> <span id="frequency">n/a</span></p>
+			  <p><strong>Volume:</strong> <span id="volume">n/a</span></p>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+
+	<script src="app.js"></script>
+</body>
+</html>
